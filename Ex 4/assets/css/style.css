@@ -233,17 +233,14 @@ header {
 
 /* Section-4 */
 .section-4 {
-
-    .container {
-        background: rgb(255, 255, 255);      
-        margin-top: -125px;        
-    }
+    background: rgb(255, 255, 255);      
+    margin-top: -140px;
+    padding-top: 250px;  
     
     .table1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 225px;
 
         .table1LeftCol {
             
@@ -297,9 +294,6 @@ header {
         .tableColLeft {
             margin-top: 57px;
             max-width: 488px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
             .content {
                 max-width: 327px;
                 gap: 24px;
@@ -325,8 +319,6 @@ header {
         .tableColRight {
             margin-top: -123px;
             max-width: 728px;
-            display: flex;
-            flex-direction: column;
         }
 
     }
@@ -335,13 +327,13 @@ header {
 
 /* Section Footer */
 .footer {
-    .container {
-        background-color: var(--darkBlue);
-    }
+    background-color: var(--darkBlue);
+
     .footerTable {
+        padding: 64px 0px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         .col1 {
             display: flex;
             flex-direction: column;
@@ -364,19 +356,28 @@ header {
         }
     }
     .footerBottom {
-        a {text-decoration: none; color: var(--white);}
-        /* box-sizing: border-box;         */
+        padding: 40px 0px;
+        border-top: 1px solid #ffffff33;
+        box-sizing: border-box;        
 
         .navigation{
         
             ul {
-                margin: 0;
-                padding: 0;
+                margin: 0px;
+                padding: 0px;
+                a {text-decoration: none; color: #ffffff39;}
+                
             }
 
             li {
                 display: inline; list-style-type: none;
-                margin: 0px 25px;
+                margin-right: 25px;  
+                &:first-child  {
+                    padding-right: 25px;
+                    border-right: solid;
+                    border-width: 2px;
+                    border-right-color: #ffffff39;
+                }
             }
         }
     }
