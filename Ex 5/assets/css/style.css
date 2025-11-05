@@ -1,0 +1,69 @@
+:root {
+    --bgcolour: #043873;
+    --white: #fff;
+    --ctaBlue: #4F9CF9;
+    --ctaLYellow: #FFE492;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bgcolour); 
+}
+
+.dm-sans-logo {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.grid {
+    max-width: 1920px;
+}
+
+
+
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    a {text-decoration: none; color: var(--white);}
+
+
+    .headerLogo {
+        ul {display: inline-block;
+            li {display: block;
+            float: left;
+            }
+        }
+    }
+    .navContainer {
+        .sub {display: inline-block;
+            margin: 0 50px;
+            ul {display: none;}
+            &:hover {
+                ul {display: block;
+                    list-style: none ;
+                }
+                li {display: block;
+                    margin: 0;
+                }
+            } 
+        }
+    }
+
+    .ctaContainer {  
+        .ctaButton {
+            display: block;
+            .cta1 {
+                background-color: var(--ctaLYellow);  
+            } 
+            .cta2 {
+                background-color: var(--ctaBlue);
+            }
+        }
+    }
+}
+
