@@ -1,6 +1,10 @@
 <html>
     <head>
         <title>Ex 5 - Whitepace</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../assets/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css"/>
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,8 +12,8 @@
     </head>
 
     <body>
-        <header class="grid">
-            <div class="headerContainer">
+        <header class="">
+            <div class="headerContainer grid">
                 <div class="headerLogo">
                     <div><img src="../assets/images/Group.png" alt="#"></div>
                     <div><a href="#">whitepace</a></div>
@@ -61,11 +65,119 @@
                 </div>
             </div>
         </header>
-   </body>
 
-    <footer>
-        <div>
-
+        <div class="hero-section">
+            <div class="grid hero-grid">
+                <div class="left-col">
+                    <h1>Get More Done with whitepace</h1>
+                    <p>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+                    <a href="https://google.com" target="_blank" class="cta_blue">Try Whitepace free</a>
+                </div>
+                <div class="right-col">
+                    <img src="../assets/images/dest-1.png">
+                </div>
+            </div>
         </div>
-    </footer>
+
+        <div class="slider-section">
+            <h1>What Our Clients Says</h1>
+
+            <div class="grid">
+                <div class="slider_container">
+                    <div>
+                        <div class="quote">
+                            <img src="../assets/images/quote.svg">
+                            <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="avi"><img src="../assets/images/Avatar.png"></div>
+                            <div class="right_col">
+                                <div class="name">Oberon Shaw, MCH</div>
+                                <div class="desig">Head of Talent Acquisition, North America</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="quote">
+                            <img src="../assets/images/quote.svg">
+                            <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="avi"><img src="../assets/images/Avatar2.png"></div>
+                            <div class="right_col">
+                                <div class="name">Oberon Shaw, MCH</div>
+                                <div class="desig">Head of Talent Acquisition, North America</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="quote">
+                            <img src="../assets/images/quote.svg">
+                            <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="avi"><img src="../assets/images/Avatar3.png"></div>
+                            <div class="right_col">
+                                <div class="name">Oberon Shaw, MCH</div>
+                                <div class="desig">Head of Talent Acquisition, North America</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="quote">
+                            <img src="../assets/images/quote.svg">
+                            <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="avi"><img src="../assets/images/Avatar.png"></div>
+                            <div class="right_col">
+                                <div class="name">Oberon Shaw, MCH</div>
+                                <div class="desig">Head of Talent Acquisition, North America</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="quote">
+                            <img src="../assets/images/quote.svg">
+                            <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="avi"><img src="../assets/images/Avatar2.png"></div>
+                            <div class="right_col">
+                                <div class="name">Oberon Shaw, MCH</div>
+                                <div class="desig">Head of Talent Acquisition, North America</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="quote">
+                            <img src="../assets/images/quote.svg">
+                            <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="avi"><img src="../assets/images/Avatar3.png"></div>
+                            <div class="right_col">
+                                <div class="name">Oberon Shaw, MCH</div>
+                                <div class="desig">Head of Talent Acquisition, North America</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.slider_container').slick({
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  autoplay: true,
+                  autoplaySpeed: 2000,
+                });
+            });
+        </script>
+   </body>
 </html>
