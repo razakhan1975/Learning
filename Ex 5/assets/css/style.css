@@ -165,21 +165,23 @@ header {background-color: var(--bgcolour);}
     .grid {
         .slider_container {
             display: flex;
- 
+            
             .quote {
                 max-width: 370px;
-                border-bottom: 2px solid rgb(0, 0, 0);
-
                 padding: 60 40 40 40;
                 background-color: var(--sliderBlue);
-                /* border-bottom: 2px solid rgb(0, 0, 0); */
-                
+                border-bottom: 1px solid var(--black);                     
             }
+
             .profile {
-                flex-direction: column;
-                justify-content: space-evenly;
                 max-width: 370px;
+                padding: 60 40 40 40;
                 background-color: var(--sliderBlue);
+                display: inline-flex;
+                align-items: center;
+                gap: 50px;
+                .avi {}
+                .right_col {}
             }
         }
     }
